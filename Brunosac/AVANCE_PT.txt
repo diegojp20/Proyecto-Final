@@ -1,0 +1,46 @@
+--------------------------- SPRINT #1
+HU1 DISEÑO DE INTERFAZ
+HU2 REGISTRO DE USUARIOS(LOGIN) - AGREGAR ROLES Y AREA
+HU3 REGISTRO DE PRODUCTOS - Y AGREGADO DE STOCK
+---------------------------
+-------------------------- SPRINT #2
+H4 SALIDAS DE PRODUCTO
+H5 GENERAR DOCUMENTOS DE SALIDA
+---------------------------
+--------------------------- SPRINT #3
+H6 ALERTA DE STOCK
+H7 ENTRADA  STOCK DE PRODUCTO
+--------------------------
+-------------------------- SPRINT #4
+H9 GENERAR COPIA DE SEGURIDAD
+H8 EMITIR REPORTE
+
+--------------------------
+
+DOCUEMNTO 00001
+
+---ITEM---   ----NRP DOC--
+PRODUCTO 1   00001  
+PRODUCTO 2   00001
+
+//////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+AGENDA:
+- REVISION DE LAS HISTORIAS DE USUARIO
+- ACTUALIZACION DE LAS TABLAS DE BASE DE DATOS
+
+DESICIONES TOMADAS:
+- ACTUALIZACIÓN DE TODAS LAS HU Y EL ORDEN DE PRIORIZACIÓN PARA 
+MANTENER UN CORRECTO UN ORDEN EN EL INFORME.
+- CREAR NUEVAS TABLAS PARA PODER TENER DETALLADO LOS DOCUMENTOS DE 
+ENTRADA Y SALIDA EN LOS PRODUCTOS.
+- DOCUMENTAR TODAS LAS ENTRADAS Y SALIDAS.
+
+
+
+
+
+
+
+
+

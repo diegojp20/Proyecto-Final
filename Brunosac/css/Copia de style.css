@@ -1,0 +1,974 @@
+body,
+html {
+  position: relative;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.noMD {
+  background-color: #d4d4d4;
+}
+/*FIXME: formUser */
+
+.login {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 70px auto 0px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+.login .logo {
+  width: 100%;
+  margin: 0px auto;
+}
+.login .logo img {
+  max-width: 100%;
+}
+
+.login .formUser p {
+  color: #181818;
+  letter-spacing: 0.01em;
+  font-size: 16pt;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+
+.login .formUser label {
+  font-size: 12pt;
+  display: inline-block;
+  margin: 10px 0px;
+  font-weight: 400;
+}
+
+.login .formUser input {
+  width: 96%;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+}
+
+.login .formUser button {
+  display: block;
+  background-color: #3a3a3a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 50px auto 30px;
+  cursor: pointer;
+}
+
+/* listados entraproductos */
+
+.entraProducto p.titulo {
+  text-align: center;
+  font-size: 25pt;
+  margin-bottom: 50px;
+}
+
+.entraProducto {
+  position: relative;
+  width: 1200px;
+  margin: 100px auto;
+}
+.entraProducto .logo {
+  width: 300px;
+  margin: 0px auto;
+}
+
+.entraProducto img {
+  max-width: 100%;
+}
+.entraProducto table {
+  width: 100%;
+  padding: 0px;
+  margin-top: 20px;
+}
+.entraProducto table thead {
+  background-color: #89c2d9;
+  text-transform: capitalize;
+}
+.entraProducto table thead th {
+  text-transform: capitalize;
+}
+
+.entraProducto table thead tr th:nth-child(1),
+.entraProducto table tbody tr td:nth-child(1) {
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+}
+.entraProducto table thead tr th:nth-child(1) {
+  text-align: center;
+}
+.entraProducto table thead tr th:nth-child(2),
+.entraProducto table tbody tr td:nth-child(2) {
+  width: 10%;
+  text-align: center;
+}
+.entraProducto table thead tr th:nth-child(3),
+.entraProducto table tbody tr td:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+.entraProducto table thead tr th:nth-child(4),
+.entraProducto table tbody tr td:nth-child(4) {
+  width: 15%;
+  text-align: center;
+}
+.entraProducto table tbody tr td:nth-child(4) {
+  text-align: left;
+}
+.entraProducto table thead tr th:nth-child(5),
+.entraProducto table tbody tr td:nth-child(5) {
+  width: 10%;
+  text-align: center;
+}
+.entraProducto table thead tr th:nth-child(6),
+.entraProducto table tbody tr td:nth-child(6) {
+  width: 15%;
+  text-align: center;
+}
+.entraProducto table tbody tr td:nth-child(6) {
+  text-align: left;
+}
+
+.entraProducto table thead tr th:nth-child(7),
+.entraProducto table tbody tr td:nth-child(7) {
+  width: 5%;
+  text-align: center;
+}
+
+.entraProducto table thead tr th:nth-child(8),
+.entraProducto table tbody tr td:nth-child(8) {
+  width: 5%;
+  text-align: center;
+}
+
+.entraProducto table tbody tr td a {
+  text-decoration: none;
+  display: block;
+
+  text-align: center;
+}
+
+.entraProducto .add {
+  text-decoration: none;
+  display: inline;
+  width: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #b80303;
+  color: rgb(255, 255, 255);
+}
+.entraProducto .listaRP {
+  text-decoration: none;
+  width: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #1ac28a;
+  color: #fff;
+  display: inline;
+}
+.entraProducto .delete {
+  text-decoration: none;
+  display: block;
+  width: 60px;
+  padding: 5px;
+  background-color: #4eae4f;
+  color: #fff;
+}
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+/* agregarProducto */
+
+.agregarProducto {
+  width: 500px;
+  margin: 100px auto;
+}
+.agregarProducto img {
+  max-width: 100%;
+}
+
+.agregarProducto .formUser p {
+  color: #181818;
+  letter-spacing: 0.01em;
+  font-size: 16pt;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+
+.agregarProducto .formUser label {
+  font-size: 12pt;
+  display: inline-block;
+  margin: 10px 0px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.agregarProducto .formUser input {
+  width: 96%;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+}
+
+.agregarProducto .formUser button {
+  display: block;
+  background-color: #3a3a3a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 50px auto 30px;
+  cursor: pointer;
+}
+
+.agregarProducto .boton {
+  width: 100% !important;
+  margin: 10px 0px;
+}
+
+.agregarProducto .regresar {
+  width: 96%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0px;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+  background-color: #efeeef;
+  border: solid 1px #181818;
+}
+
+.agregarProducto .option {
+  width: 200px;
+  padding: 10px;
+}
+
+.agregarProducto a.nuevoReg {
+  text-decoration: none;
+  padding: 10px;
+  display: initial;
+  background-color: #40a2dd;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* editarProducto */
+
+.editarProducto {
+  width: 500px;
+  margin: 100px auto;
+}
+.editarProducto img {
+  max-width: 100%;
+}
+
+.editarProducto .formUser p {
+  color: #181818;
+  letter-spacing: 0.01em;
+  font-size: 16pt;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+
+.editarProducto .formUser label {
+  font-size: 12pt;
+  display: inline-block;
+  margin: 10px 0px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.editarProducto .formUser input {
+  width: 96%;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+}
+
+.editarProducto .formUser button {
+  display: block;
+  background-color: #3a3a3a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 50px auto 30px;
+  cursor: pointer;
+}
+
+.editarProducto .boton {
+  width: 100% !important;
+  margin: 10px 0px;
+}
+
+.editarProducto .regresar {
+  width: 96%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0px;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+  background-color: #efeeef;
+  border: solid 1px #181818;
+}
+
+.editarProducto .option {
+  width: 200px;
+  padding: 10px;
+}
+
+.editarProducto a.nuevoReg {
+  text-decoration: none;
+  padding: 10px;
+  display: initial;
+  background-color: #40a2dd;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* listaProductoRegistrado */
+
+.listaProductoRegistrado p.titulo {
+  text-align: center;
+  font-size: 25pt;
+  margin-bottom: 50px;
+}
+
+.listaProductoRegistrado {
+  position: relative;
+  width: 800px;
+  margin: 100px auto;
+}
+.listaProductoRegistrado .logo {
+  width: 300px;
+  margin: 0px auto;
+  margin-bottom: 0px;
+}
+
+.listaProductoRegistrado img {
+  max-width: 100%;
+}
+.listaProductoRegistrado table {
+  width: 100%;
+  padding: 0px;
+  margin-top: 25px;
+}
+.listaProductoRegistrado table thead {
+  background-color: #89c2d9;
+  text-transform: capitalize;
+}
+.listaProductoRegistrado table thead th {
+  text-transform: capitalize;
+}
+
+.listaProductoRegistrado table thead tr th:nth-child(1),
+.listaProductoRegistrado table tbody tr td:nth-child(1) {
+  width: 15%;
+  text-align: center;
+  padding: 10px;
+}
+.listaProductoRegistrado table thead tr th:nth-child(2),
+.listaProductoRegistrado table tbody tr td:nth-child(2) {
+  width: 15%;
+  text-align: center;
+}
+.listaProductoRegistrado table thead tr th:nth-child(3),
+.listaProductoRegistrado table tbody tr td:nth-child(3) {
+  width: 40%;
+  text-align: center;
+}
+.listaProductoRegistrado table tbody tr td:nth-child(3) {
+  text-align: left;
+}
+.listaProductoRegistrado table thead tr th:nth-child(4),
+.listaProductoRegistrado table tbody tr td:nth-child(4) {
+  width: 20%;
+  text-align: center;
+}
+.listaProductoRegistrado table thead tr th:nth-child(5),
+.listaProductoRegistrado table tbody tr td:nth-child(5) {
+  width: 20%;
+  text-align: center;
+}
+
+.listaProductoRegistrado table tbody tr td:nth-child(5) {
+  text-align: left;
+}
+
+.listaProductoRegistrado table tbody tr td a {
+  text-decoration: none;
+  display: block;
+
+  text-align: center;
+}
+
+.listaProductoRegistrado .reg {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+  padding: 5px;
+  background-color: #4077dd;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.listaProductoRegistrado .add {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+
+  padding: 5px;
+  background-color: #40a2dd;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.listaProductoRegistrado .expor {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+  background-color: #4eae4f;
+  padding: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.listaProductoRegistrado .edit {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+  padding: 5px;
+  background-color: #4eae4f;
+  color: #fff;
+}
+.listaProductoRegistrado .delete {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+  padding: 5px;
+  background-color: #e41e1e;
+  color: #fff;
+}
+.listaProductoRegistrado table {
+  border-collapse: collapse;
+  border: none;
+}
+
+/* addRegProducto */
+
+.addRegProducto {
+  width: 500px;
+  margin: 100px auto;
+}
+.addRegProducto img {
+  max-width: 100%;
+}
+
+.addRegProducto .formUser p {
+  color: #181818;
+  letter-spacing: 0.01em;
+  font-size: 16pt;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+
+.addRegProducto .formUser label {
+  font-size: 12pt;
+  display: inline-block;
+  margin: 10px 0px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.addRegProducto .formUser input {
+  width: 96%;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+}
+
+.addRegProducto .formUser button {
+  display: block;
+  background-color: #3a3a3a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 50px auto 30px;
+  cursor: pointer;
+}
+
+.addRegProducto .boton {
+  width: 100% !important;
+  margin: 10px 0px;
+}
+
+.addRegProducto .regresar {
+  width: 96%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0px;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+  background-color: #efeeef;
+  border: solid 1px #181818;
+}
+
+.addRegProducto .option {
+  width: 200px;
+  padding: 10px;
+}
+
+.addRegProducto a.nuevoReg {
+  text-decoration: none;
+  padding: 10px;
+  display: initial;
+  background-color: #40a2dd;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* editRegProducto */
+
+.editRegProducto {
+  width: 500px;
+  margin: 100px auto;
+}
+.editRegProducto img {
+  max-width: 100%;
+}
+
+.editRegProducto .formUser p {
+  color: #181818;
+  letter-spacing: 0.01em;
+  font-size: 16pt;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+
+.editRegProducto .formUser label {
+  font-size: 12pt;
+  display: inline-block;
+  margin: 10px 0px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.editRegProducto .formUser input {
+  width: 96%;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+}
+
+.editRegProducto .formUser button {
+  display: block;
+  background-color: #3a3a3a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  margin: 50px auto 30px;
+  cursor: pointer;
+}
+
+.editRegProducto .boton {
+  width: 100% !important;
+  margin: 10px 0px;
+}
+
+.editRegProducto .regresar {
+  width: 96%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0px;
+  padding: 5px 5px 5px 10px;
+  font-size: 14pt;
+  color: #181818;
+  background-color: #efeeef;
+  border: solid 1px #181818;
+}
+
+.editRegProducto .option {
+  width: 200px;
+  padding: 10px;
+}
+
+.editRegProducto a.nuevoReg {
+  text-decoration: none;
+  padding: 10px;
+  display: initial;
+  background-color: #40a2dd;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* inventarios */
+
+.inventarios p.titulo {
+  text-align: center;
+  font-size: 25pt;
+  margin-bottom: 50px;
+}
+
+.inventarios {
+  position: relative;
+  width: 1200px;
+  margin: 100px auto;
+}
+.inventarios .logo {
+  width: 300px;
+  margin: 0px auto;
+}
+
+.inventarios img {
+  max-width: 100%;
+}
+.inventarios table {
+  width: 100%;
+  padding: 0px;
+  margin-top: 20px;
+}
+.inventarios table thead {
+  background-color: #89c2d9;
+  text-transform: capitalize;
+}
+.inventarios table thead th {
+  text-transform: capitalize;
+}
+
+.inventarios table thead tr th:nth-child(1),
+.inventarios table tbody tr td:nth-child(1) {
+  width: 15%;
+  text-align: center;
+  padding: 10px;
+}
+.inventarios table thead tr th:nth-child(1) {
+  text-align: center;
+}
+.inventarios table thead tr th:nth-child(2),
+.inventarios table tbody tr td:nth-child(2) {
+  width: 50%;
+  text-align: left;
+}
+.inventarios table thead tr th:nth-child(2) {
+  text-align: center;
+}
+
+.inventarios table thead tr th:nth-child(3),
+.inventarios table tbody tr td:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+
+.inventarios table thead tr th:nth-child(4),
+.inventarios table tbody tr td:nth-child(4) {
+  width: 10%;
+  text-align: center;
+}
+.inventarios table thead tr th:nth-child(4),
+.inventarios table tbody tr td:nth-child(4) {
+  width: 10%;
+  text-align: center;
+}
+.inventarios table thead tr th:nth-child(5),
+.inventarios table tbody tr td:nth-child(5) {
+  width: 15%;
+  text-align: center;
+}
+
+.inventarios table tbody tr td.activo {
+  /* background-color:#0bf003; */
+  color: #0e9202;
+  font-weight: 700;
+}
+.inventarios table tbody tr td.normal {
+  /* background-color:#0bf003; */
+  color: #f39507;
+  font-weight: 700;
+}
+.inventarios table tbody tr td.critico {
+  /* background-color:#fc0037; */
+  color: #e41e1e;
+  font-weight: 700;
+}
+
+.inventarios .expor {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+  background-color: #4eae4f;
+  padding: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.inventarios table tbody tr td a {
+  text-decoration: none;
+  display: block;
+
+  text-align: center;
+}
+
+.inventarios .add {
+  text-decoration: none;
+  display: inline;
+  width: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #40a2dd;
+  color: #fff;
+}
+.inventarios .listaRP {
+  text-decoration: none;
+  width: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #1ac28a;
+  color: #fff;
+  display: inline;
+}
+.inventarios .delete {
+  text-decoration: none;
+  display: block;
+  width: 60px;
+  padding: 5px;
+  background-color: #4eae4f;
+  color: #fff;
+}
+
+.inventarios a.registro {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #d63131;
+  color: #fff;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+}
+
+/* salidaProducto */
+.salidaProducto p.titulo {
+  text-align: center;
+  font-size: 25pt;
+  margin-bottom: 50px;
+}
+
+.salidaProducto {
+  position: relative;
+  width: 1200px;
+  margin: 100px auto;
+}
+.salidaProducto .logo {
+  width: 300px;
+  margin: 0px auto;
+}
+
+.salidaProducto img {
+  max-width: 100%;
+}
+.salidaProducto table {
+  width: 100%;
+  padding: 0px;
+  margin-top: 20px;
+}
+.salidaProducto table thead {
+  background-color: #89c2d9;
+  text-transform: capitalize;
+}
+.salidaProducto table thead th {
+  text-transform: capitalize;
+}
+
+.salidaProducto table thead tr th:nth-child(1),
+.salidaProducto table tbody tr td:nth-child(1) {
+  width: 8%;
+  text-align: center;
+  padding: 10px;
+}
+.salidaProducto table tbody tr td:nth-child(1) {
+  text-align: left;
+}
+.salidaProducto table thead tr th:nth-child(2),
+.salidaProducto table tbody tr td:nth-child(2) {
+  width: 8%;
+  text-align: center;
+}
+
+.salidaProducto table thead tr th:nth-child(3),
+.salidaProducto table tbody tr td:nth-child(3) {
+  width: 10%;
+  text-align: center;
+}
+
+.salidaProducto table thead tr th:nth-child(4),
+.salidaProducto table tbody tr td:nth-child(4) {
+  width: 28%;
+  text-align: center;
+}
+.salidaProducto table tbody tr td:nth-child(4) {
+  text-align: left;
+}
+.salidaProducto table thead tr th:nth-child(5),
+.salidaProducto table tbody tr td:nth-child(5) {
+  width: 10%;
+  text-align: center;
+}
+.salidaProducto table thead tr th:nth-child(6),
+.salidaProducto table tbody tr td:nth-child(6) {
+  width: 10%;
+  text-align: center;
+}
+.salidaProducto table tbody tr td:nth-child(6) {
+  text-align: left;
+}
+
+.salidaProducto table thead tr th:nth-child(7),
+.salidaProducto table tbody tr td:nth-child(7) {
+  width: 7%;
+  text-align: center;
+}
+.salidaProducto table thead tr th:nth-child(8),
+.salidaProducto table tbody tr td:nth-child(8) {
+  width: 7%;
+  text-align: center;
+}
+.salidaProducto table thead tr th:nth-child(9),
+.salidaProducto table tbody tr td:nth-child(9) {
+  width: 7%;
+  text-align: center;
+}
+
+.salidaProducto table tbody tr td.activo {
+  /* background-color:#0bf003; */
+  color: #0e9202;
+  font-weight: 700;
+}
+.salidaProducto table tbody tr td.normal {
+  /* background-color:#0bf003; */
+  color: #f39507;
+  font-weight: 700;
+}
+.salidaProducto table tbody tr td.critico {
+  /* background-color:#fc0037; */
+  color: #e41e1e;
+  font-weight: 700;
+}
+
+.salidaProducto .expor {
+  text-decoration: none;
+  display: initial;
+  width: 60px;
+  background-color: #4eae4f;
+  padding: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.salidaProducto table tbody tr td a {
+  text-decoration: none;
+  display: block;
+
+  text-align: center;
+}
+
+.salidaProducto .add {
+  text-decoration: none;
+  display: inline;
+  width: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #40a2dd;
+  color: #fff;
+}
+.salidaProducto .listaRP {
+  text-decoration: none;
+  width: 60px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #1ac28a;
+  color: #fff;
+  display: inline;
+}
+.salidaProducto .delete {
+  text-decoration: none;
+  display: block;
+  width: 60px;
+  padding: 5px;
+  background-color: #4eae4f;
+  color: #fff;
+}
+/* Menu */
+
+.menu{
+  width: 680px;
+  height: 75px;
+  margin: 0px auto;
+background-color: #b80303;
+}
+.menu ul{
+  list-style: none;
+  padding:0px;
+  border: 0px;
+}
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.menu ul li a:hover{
+  text-decoration:underline;
+}
